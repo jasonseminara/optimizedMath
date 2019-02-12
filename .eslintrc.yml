@@ -1,0 +1,18 @@
+extends: airbnb-base
+env:
+  node: true
+  jest: true
+rules:
+  strict: 0
+  global-require: 0
+  key-spacing:
+    - error
+    - align: value
+  no-multi-spaces:
+    - error
+    - exceptions:
+        VariableDeclarator: true
+        ImportDeclaration: true
+  import/no-extraneous-dependencies: 0
+  no-console: 0
+  no-bitwise: 0
